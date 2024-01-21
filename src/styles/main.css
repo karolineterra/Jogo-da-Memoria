@@ -90,7 +90,8 @@ body {
     transform: rotateY(0deg);
 }
 
-.boxOpen::after, .boxMatch::after {
-    transform: rotate(180deg);
+.boxOpen::after, 
+.boxMatch::after {
+    transform: rotateY(180deg);
 
 }
